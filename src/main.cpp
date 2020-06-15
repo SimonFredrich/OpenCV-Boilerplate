@@ -10,7 +10,7 @@ int main()
 {
 
     Mat image;
-    image = imread("/mnt/8668734168732F55/Development/opencv_template/images/tesla.jpg", cv::IMREAD_COLOR );   // Read the file
+    image = imread("./images/tesla.jpg", cv::IMREAD_COLOR );   // Read the file
 
     cv::resize(image, image, Size(image.size().width/4, image.size().height/4)); // resize the image by a factor of 1/4
 
