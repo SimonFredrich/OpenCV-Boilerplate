@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/mnt/8668734168732F55/Libraries/opencv-4.1.0_install/include/opencv4",
+                "/mnt/8668734168732F55/Libraries/opencv-4.1.0_install/include",
+                "/usr/lib/x86_64-linux-gnu/",
+                "${workspaceRoot}/"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
